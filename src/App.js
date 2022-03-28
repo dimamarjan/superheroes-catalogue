@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        {/* <Route exact path="/" element={<SuperheroCard />} /> */}
         <Route exact path="/" element={<Navigate to={"/1"} />} />
         <Route
           exact
